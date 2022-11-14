@@ -1,4 +1,4 @@
-pluginManagement {
+/*pluginManagement {
     val kotlinVersion: String? by settings
     val safeKotlinVersion = kotlinVersion ?: "1.7.20"
     plugins {
@@ -6,7 +6,7 @@ pluginManagement {
         kotlin("kapt") version safeKotlinVersion
         kotlin("plugin.serialization") version safeKotlinVersion
     }
-}
+}*/
 
 plugins {
     //id("io.cloudflight.autoconfigure-settings")

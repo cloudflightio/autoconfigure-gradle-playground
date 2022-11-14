@@ -1,5 +1,7 @@
 plugins {
+    id 'io.cloudflight.autoconfigure-gradle'
     id 'java'
+    id "com.github.spotbugs" version "5.0.13"
 }
 
 description "The JavaConfigurePlugin is automatically applied and the configuration of the AutoConfigurePlugin is used"

@@ -1,5 +1,1 @@
-plugins {
-    id "io.cloudflight.autoconfigure-settings"
-}
-
 rootProject.name = 'single-kotlin-module'
